@@ -1,0 +1,1826 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.24f1 (79c78de19888) revision 7980941'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 32719 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+E:\Unity\Unity Editor\2020.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Unity/Projects/game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57884
+Successfully changed project path to: E:/Unity/Projects/game
+E:/Unity/Projects/game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 69.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.24f1 (79c78de19888)
+[Subsystems] Discovering subsystems at path E:/Unity/Unity Editor/2020.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity/Projects/game/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Vendor:   
+    VRAM:     8171 MB
+    Driver:   30.0.13037.1003
+Initialize mono
+Mono path[0] = 'E:/Unity/Unity Editor/2020.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/Unity Editor/2020.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'E:/Unity/Unity Editor/2020.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56172
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/Unity Editor/2020.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000987 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 74.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.512 seconds
+Domain Reload Profiling:
+	ReloadAssembly (512ms)
+		BeginReloadAssembly (42ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (411ms)
+			LoadAssemblies (41ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (124ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (180ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (74ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (67ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003080 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 76.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.963 seconds
+Domain Reload Profiling:
+	ReloadAssembly (964ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (792ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (264ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (313ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (77ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (156ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.1 MB.
+System memory in use after: 128.3 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3235.
+Total: 3.799100 ms (FindLiveObjects: 0.332800 ms CreateObjectMapping: 0.072100 ms MarkObjects: 3.307200 ms  DeleteObjects: 0.085600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/textures/Portal 2 Texture Library Converted/skybox
+  artifactKey: Guid(95a8668b8c0654a4a8b244ce500cea1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/skybox using Guid(95a8668b8c0654a4a8b244ce500cea1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0759f9c15936bc5da2d4dee97ad589b7') in 0.008563 seconds 
+  Import took 0.012705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 933.604213 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/anim_wp/ekg/ekg_anim.png
+  artifactKey: Guid(1774c106ede521a4f9a0bb0337b5f235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/anim_wp/ekg/ekg_anim.png using Guid(1774c106ede521a4f9a0bb0337b5f235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90641c0ea6f720820a5d651707087525') in 0.064206 seconds 
+  Import took 0.069227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/anim_wp/ekg/flatline_anim.png
+  artifactKey: Guid(5511554957418234794c64e4b81eb984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/anim_wp/ekg/flatline_anim.png using Guid(5511554957418234794c64e4b81eb984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e171528b521e6d5229a5efb22363669') in 0.012353 seconds 
+  Import took 0.016697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2338.856552 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/backstage_grate_001a.png
+  artifactKey: Guid(547ab39b86d4fae48b65f0693d06c3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/backstage_grate_001a.png using Guid(547ab39b86d4fae48b65f0693d06c3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4865f5de75884a9ddc65c5d4ae8f9545') in 0.012602 seconds 
+  Import took 0.017640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_002d.png
+  artifactKey: Guid(c28fb7f5a7fb2ec47a63593df6c894ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_002d.png using Guid(c28fb7f5a7fb2ec47a63593df6c894ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91862f5c2a9142916ca2dc24559834e') in 0.012189 seconds 
+  Import took 0.016312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_floor_metal_001d.png
+  artifactKey: Guid(2053ae7ffbdd48c439d53eb8a0471def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_floor_metal_001d.png using Guid(2053ae7ffbdd48c439d53eb8a0471def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10319dee395a5b3659f35e33e3e38ca') in 0.012869 seconds 
+  Import took 0.016810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_004d_normal.png
+  artifactKey: Guid(001d6590c9ed213448941c63a356a952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_004d_normal.png using Guid(001d6590c9ed213448941c63a356a952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5d1d3c88931cd960a95ecf6bd52838') in 0.010481 seconds 
+  Import took 0.015383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_002f_normal.png
+  artifactKey: Guid(e217b99cd43ec61429d302d30891bb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_002f_normal.png using Guid(e217b99cd43ec61429d302d30891bb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc69875d61ec63e5205947dd948533d') in 0.010655 seconds 
+  Import took 0.015474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005a_height-ssbump.png
+  artifactKey: Guid(1cbff36cb1c9e05448419acc79ecab29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005a_height-ssbump.png using Guid(1cbff36cb1c9e05448419acc79ecab29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e25607fd81a77ee1e1c43967fceb7d') in 0.010149 seconds 
+  Import took 0.014831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_004c.png
+  artifactKey: Guid(79afedea80a8f1f4cb5ea0f7b45a3b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_004c.png using Guid(79afedea80a8f1f4cb5ea0f7b45a3b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd8fda3e141c5f23565379e509d71a0') in 0.009656 seconds 
+  Import took 0.014030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_002a.png
+  artifactKey: Guid(e8a5124f9df3bc14d87f943b5bed9ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_002a.png using Guid(e8a5124f9df3bc14d87f943b5bed9ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a207741952169a26aeda19e38731ad') in 0.010186 seconds 
+  Import took 0.014309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_floor_metal_001c.png
+  artifactKey: Guid(1d87d97444fb51946b8925fb44a5f3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_floor_metal_001c.png using Guid(1d87d97444fb51946b8925fb44a5f3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b318e946ac8266f54a6ca3541ac1a7') in 0.010732 seconds 
+  Import took 0.015082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005c-height-ssbump.png
+  artifactKey: Guid(c421428ef57f5ae4fa5f748d4dc7e82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005c-height-ssbump.png using Guid(c421428ef57f5ae4fa5f748d4dc7e82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ace1271bfb307668101874a2c4c164') in 0.010629 seconds 
+  Import took 0.015280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_002e.png
+  artifactKey: Guid(1976cd5f651d63b46adbca9491ba0c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_002e.png using Guid(1976cd5f651d63b46adbca9491ba0c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '640bbe83c264f5a47eaa4b9fe37d557f') in 0.010916 seconds 
+  Import took 0.015580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_envmap_002a.png
+  artifactKey: Guid(d5dd7393fbc03f7469258b413a62f5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_envmap_002a.png using Guid(d5dd7393fbc03f7469258b413a62f5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca767fa3f05c4ab65a243a0b6ad1f5e5') in 0.009194 seconds 
+  Import took 0.013867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005b_height-ssbump_top.png
+  artifactKey: Guid(0f4a03ce00ab4f442abc735d30879c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005b_height-ssbump_top.png using Guid(0f4a03ce00ab4f442abc735d30879c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80143d36d245e37c9281d76b0f7725bb') in 0.011525 seconds 
+  Import took 0.015597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_002e_height-ssbump.png
+  artifactKey: Guid(f47489ac4c432a549860b22fcf4307c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_002e_height-ssbump.png using Guid(f47489ac4c432a549860b22fcf4307c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33bd1d7025f8e0d86d3ed03281548019') in 0.009283 seconds 
+  Import took 0.014181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_002c_normal.png
+  artifactKey: Guid(4752844914f0d8041aa930fbbc4d029c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_002c_normal.png using Guid(4752844914f0d8041aa930fbbc4d029c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e0ac4a2e8e80881d5632dbe6a62eea') in 0.009989 seconds 
+  Import took 0.014643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005a_top.png
+  artifactKey: Guid(1bc49539035aee44296685e7c35c89ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005a_top.png using Guid(1bc49539035aee44296685e7c35c89ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '736c8011f795f50266966df1ea5afe4e') in 0.010343 seconds 
+  Import took 0.015053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_003e.png
+  artifactKey: Guid(24323ab61124f264188a09aa6c965fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_003e.png using Guid(24323ab61124f264188a09aa6c965fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f5ad6ecbce2b3896286a4d02f4eb35') in 0.009522 seconds 
+  Import took 0.014085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005b-height-ssbump.png
+  artifactKey: Guid(094ebfc27378ca34a9e2864018dd243e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005b-height-ssbump.png using Guid(094ebfc27378ca34a9e2864018dd243e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34eeef97a2944db31637a4ee77e3916') in 0.009980 seconds 
+  Import took 0.014540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_003b.png
+  artifactKey: Guid(d9ee48d5fabc43d46b9188113c4217aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_003b.png using Guid(d9ee48d5fabc43d46b9188113c4217aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f37e516729c16ac599dacf71633b50f') in 0.009948 seconds 
+  Import took 0.013958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_floor_metal_001c_teamfloor.png
+  artifactKey: Guid(297c462653f79124289041925652577c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_floor_metal_001c_teamfloor.png using Guid(297c462653f79124289041925652577c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdfb4c7855ccbf8ba9bcd0231f84be2f') in 0.009963 seconds 
+  Import took 0.013936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_001d_normal.png
+  artifactKey: Guid(c862a15f019fe834fb36f6fca3948ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_001d_normal.png using Guid(c862a15f019fe834fb36f6fca3948ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e8abb7bde51528d5406f09edfdbfad') in 0.010155 seconds 
+  Import took 0.014726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005c.png
+  artifactKey: Guid(0106044ba32f69047b4110c137dabc93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005c.png using Guid(0106044ba32f69047b4110c137dabc93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9f12c3fdee1bf58964403f4760181b') in 0.010445 seconds 
+  Import took 0.015065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_004b.png
+  artifactKey: Guid(e025b200306ab5f429c3b6a269837934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_004b.png using Guid(e025b200306ab5f429c3b6a269837934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf83e0f47027146439aeac8bfff2e250') in 0.009639 seconds 
+  Import took 0.013959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_floor_metal_001a_normal.png
+  artifactKey: Guid(83a55d59c14abdc4585a653d64981357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_floor_metal_001a_normal.png using Guid(83a55d59c14abdc4585a653d64981357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58dcb78cb637e10bd06043a953f0d5ed') in 0.010406 seconds 
+  Import took 0.015192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_002_height-ssbump.png
+  artifactKey: Guid(95c85493820863b4584eb38764c500f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_002_height-ssbump.png using Guid(95c85493820863b4584eb38764c500f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84123347e892ac1160eb292c6a49829') in 0.010815 seconds 
+  Import took 0.015085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_003c.png
+  artifactKey: Guid(5a581e41b1cf9cb42a78ba75de1530d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_003c.png using Guid(5a581e41b1cf9cb42a78ba75de1530d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22249549ea6b03a93d1fbe4b26998d33') in 0.008984 seconds 
+  Import took 0.013127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_floor_metal_004b.png
+  artifactKey: Guid(3cbc21066a2ba6d47868578dc8a04907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_floor_metal_004b.png using Guid(3cbc21066a2ba6d47868578dc8a04907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746b4ebeb8999f8bc0f09ff195b3c4f9') in 0.011926 seconds 
+  Import took 0.016536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005b.png
+  artifactKey: Guid(a6bec43d330387a46b204b600f77c87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005b.png using Guid(a6bec43d330387a46b204b600f77c87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7926443653d67a06426d875f467a08') in 0.010993 seconds 
+  Import took 0.015600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_floor_metal_001d_height-ssbump.png
+  artifactKey: Guid(bb33975e5e2fb8848ba2656b54dc4678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_floor_metal_001d_height-ssbump.png using Guid(bb33975e5e2fb8848ba2656b54dc4678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9555cee6db72bb4c254c55a111ff7c80') in 0.010109 seconds 
+  Import took 0.014523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005a.png
+  artifactKey: Guid(5e1b609ace5f2644783a8bc2c42b270c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005a.png using Guid(5e1b609ace5f2644783a8bc2c42b270c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42fc08219dec6e400c93d6476b221de4') in 0.010297 seconds 
+  Import took 0.014563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005c_top.png
+  artifactKey: Guid(2ee69d2ea22ff4348afa0f09e733a5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005c_top.png using Guid(2ee69d2ea22ff4348afa0f09e733a5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '706dacfd16468474368786fbafc02af1') in 0.010399 seconds 
+  Import took 0.015003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005b_normal.png
+  artifactKey: Guid(3b40b6ba38a849c48a6c013dcfd6c429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005b_normal.png using Guid(3b40b6ba38a849c48a6c013dcfd6c429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11adad65e290b83729628538b30fb3f0') in 0.010337 seconds 
+  Import took 0.015281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005d_height-ssbump.png
+  artifactKey: Guid(824a20c8e0083ab4b9c1bcb835e04bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005d_height-ssbump.png using Guid(824a20c8e0083ab4b9c1bcb835e04bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b92221df2d587d1fb7d54153228e7d6') in 0.009778 seconds 
+  Import took 0.014208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_004d.png
+  artifactKey: Guid(5827285ca62105f43aea0539a6ac9ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_004d.png using Guid(5827285ca62105f43aea0539a6ac9ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c66f451b412c1d24d5d1a932f500980') in 0.009679 seconds 
+  Import took 0.014248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_004a_top.png
+  artifactKey: Guid(f88dcfcc085d3f6419f491a863d57d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_004a_top.png using Guid(f88dcfcc085d3f6419f491a863d57d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9885a4abe4c86d60edcbc9f8e7f51c3') in 0.010121 seconds 
+  Import took 0.015088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_003a.png
+  artifactKey: Guid(7b5081d513b7c6f499ed82cb9712db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_003a.png using Guid(7b5081d513b7c6f499ed82cb9712db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932a84d7e42ed4319995fc7fc9c21dac') in 0.010017 seconds 
+  Import took 0.014591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_003f.png
+  artifactKey: Guid(2187e863373ba69498549f76ca247c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_003f.png using Guid(2187e863373ba69498549f76ca247c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a058346be74d12b083770b009bf0f0') in 0.010431 seconds 
+  Import took 0.015091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_floor_metal_001b.png
+  artifactKey: Guid(0238f6519a8dbd2458abaa2eeb34680a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_floor_metal_001b.png using Guid(0238f6519a8dbd2458abaa2eeb34680a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be260770b84a0f4830c51a6786b9070') in 0.009458 seconds 
+  Import took 0.014181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_003d.png
+  artifactKey: Guid(154c11d8df82f9e41b2e1c6ceb1ab87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_003d.png using Guid(154c11d8df82f9e41b2e1c6ceb1ab87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c4921a05d190f4c57a336c5fc5c7b4') in 0.009454 seconds 
+  Import took 0.014060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_002b_height-ssbump.png
+  artifactKey: Guid(136c283395018d84ab6b1edc66abb8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_002b_height-ssbump.png using Guid(136c283395018d84ab6b1edc66abb8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56b341226948c198406d71fee4eb28c') in 0.009417 seconds 
+  Import took 0.013414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_001c_normal.png
+  artifactKey: Guid(ff24f1bdde3715646acde429f243aff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_001c_normal.png using Guid(ff24f1bdde3715646acde429f243aff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b604fd8ca2548856fc8f05ae7e490aa') in 0.010162 seconds 
+  Import took 0.014820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_002d_height-ssbump.png
+  artifactKey: Guid(d579234c0261e174982f4b648ccb048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_002d_height-ssbump.png using Guid(d579234c0261e174982f4b648ccb048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f08c88164c0db4f9dad51f3c51bd2d6') in 0.009131 seconds 
+  Import took 0.013362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/backstage_grate_002b.png
+  artifactKey: Guid(742198b05cd10484ba07909fe6ef7031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/backstage_grate_002b.png using Guid(742198b05cd10484ba07909fe6ef7031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e1047a9f361072528949de3b7fc9d1') in 0.008787 seconds 
+  Import took 0.012891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_001c.png
+  artifactKey: Guid(9c04a91328675fc4b8cb177356b9dbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_001c.png using Guid(9c04a91328675fc4b8cb177356b9dbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a383033c36deaaa5a9dfba0e99829f') in 0.009819 seconds 
+  Import took 0.013786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_002f.png
+  artifactKey: Guid(e54b853b10df6414cb4f4ddebdc13965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_002f.png using Guid(e54b853b10df6414cb4f4ddebdc13965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea3444c22cbaca2e2952095b8ca193d') in 0.009216 seconds 
+  Import took 0.013987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005c_height-ssbump.png
+  artifactKey: Guid(e47459d6359382943ac3aab04567fae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005c_height-ssbump.png using Guid(e47459d6359382943ac3aab04567fae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5d545a6f622ecf4c2478d9cb5750d7') in 0.011026 seconds 
+  Import took 0.015651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_004c_normal.png
+  artifactKey: Guid(0a04788cf5ce2514f933a65bdff20a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_004c_normal.png using Guid(0a04788cf5ce2514f933a65bdff20a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b239f124e59c1ae02e04459f944d65') in 0.008934 seconds 
+  Import took 0.012932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005a_normal.png
+  artifactKey: Guid(d2a1a3a5e8b2dfd47b94939fb6684ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005a_normal.png using Guid(d2a1a3a5e8b2dfd47b94939fb6684ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43069995252b7372e026259a6778abf3') in 0.010443 seconds 
+  Import took 0.015221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_004b_top.png
+  artifactKey: Guid(f4c4f67492b809d4498229e290914f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_004b_top.png using Guid(f4c4f67492b809d4498229e290914f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3742f8a032580a58ffe77c0b50417ef9') in 0.010153 seconds 
+  Import took 0.014872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005d.png
+  artifactKey: Guid(6930acf3dca9f69439add00210eaece2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005d.png using Guid(6930acf3dca9f69439add00210eaece2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2505c871e9d7683b1c25ba7748684608') in 0.010654 seconds 
+  Import took 0.015288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_floor_metal_bullseye_001.png
+  artifactKey: Guid(1cc3a54a4a409ff48965ed7879d51da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_floor_metal_bullseye_001.png using Guid(1cc3a54a4a409ff48965ed7879d51da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d4eee3307db4eb39c3e20347b7b71f') in 0.010690 seconds 
+  Import took 0.014704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_002e_normal.png
+  artifactKey: Guid(915013d9bcede94449cf6cfdbbeb079b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_002e_normal.png using Guid(915013d9bcede94449cf6cfdbbeb079b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d272901b3d0249253eb613c678bf226') in 0.009881 seconds 
+  Import took 0.014636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_floor_metal_cracked01.png
+  artifactKey: Guid(708f7044da4827646bc043bbf0d2236a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_floor_metal_cracked01.png using Guid(708f7044da4827646bc043bbf0d2236a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cee2eff797a9bedc8725ef7cd34393f') in 0.010276 seconds 
+  Import took 0.014379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_002b_normal.png
+  artifactKey: Guid(86093eb264d12f14ebb543871bf18d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_002b_normal.png using Guid(86093eb264d12f14ebb543871bf18d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514ecaa297c8ddec8e3585f37b091dd7') in 0.009207 seconds 
+  Import took 0.013948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_floor_metal_001a.png
+  artifactKey: Guid(d0502c1db703da849ae4d8e9efcb5b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_floor_metal_001a.png using Guid(d0502c1db703da849ae4d8e9efcb5b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8922d4fefbf48f7084f5aa6c2e605012') in 0.010156 seconds 
+  Import took 0.015059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_004b_normal.png
+  artifactKey: Guid(6aa645206d02f874d93212e21eb5851d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_004b_normal.png using Guid(6aa645206d02f874d93212e21eb5851d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e493db0ea5d253436a467386967a80cf') in 0.010949 seconds 
+  Import took 0.015755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_001d.png
+  artifactKey: Guid(e41dc1d052074324a9463f898d1d0a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_001d.png using Guid(e41dc1d052074324a9463f898d1d0a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc68e06f1eb6c58d36c949a88c525aa') in 0.011119 seconds 
+  Import took 0.015733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_004a_normal.png
+  artifactKey: Guid(3dc487252c8743f4585933ece2806e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_004a_normal.png using Guid(3dc487252c8743f4585933ece2806e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e72276f7b4753423a4238bead8dc68') in 0.011957 seconds 
+  Import took 0.016647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005a-height-ssbump.png
+  artifactKey: Guid(518b6a3b6fc1413489383200afde80a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005a-height-ssbump.png using Guid(518b6a3b6fc1413489383200afde80a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee733aa2e573f1e1e4d8946a99fed0e8') in 0.009748 seconds 
+  Import took 0.014328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_001b_normal.png
+  artifactKey: Guid(7e3e6b574b68c3f4e9385000b8abe2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_001b_normal.png using Guid(7e3e6b574b68c3f4e9385000b8abe2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add30ddfdc707fb7337ba7050dd2e0f2') in 0.009300 seconds 
+  Import took 0.014074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_002c.png
+  artifactKey: Guid(068d90eae57cb3040848e0ab5067e115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_002c.png using Guid(068d90eae57cb3040848e0ab5067e115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f22cea11cc86195fc6a1fcbc85318a') in 0.009084 seconds 
+  Import took 0.013398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_002d_normal.png
+  artifactKey: Guid(fdecd5931fc3808439e9ec8780db2fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_002d_normal.png using Guid(fdecd5931fc3808439e9ec8780db2fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75a757703fbc435a2d254e0b3b063c2') in 0.009705 seconds 
+  Import took 0.014388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_002a_normal.png
+  artifactKey: Guid(c6d3c85b128e6dc46b6ccb0c159dde8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_002a_normal.png using Guid(c6d3c85b128e6dc46b6ccb0c159dde8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171c8f575f327e85b71f833c91d5b6a0') in 0.010386 seconds 
+  Import took 0.014453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_floor_metal_004a.png
+  artifactKey: Guid(63574568a24875c4b9005f1c5ac73757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_floor_metal_004a.png using Guid(63574568a24875c4b9005f1c5ac73757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22640cae3c274335c11099d039b08f1b') in 0.010124 seconds 
+  Import took 0.014384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_004a.png
+  artifactKey: Guid(f1f1552b05918364f8e63e5c9edf64ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_004a.png using Guid(f1f1552b05918364f8e63e5c9edf64ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5763e388f824a612278b59f59912ca') in 0.010816 seconds 
+  Import took 0.015217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005b_top.png
+  artifactKey: Guid(0525f3c6700b0db43a2eb0b0412e6b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005b_top.png using Guid(0525f3c6700b0db43a2eb0b0412e6b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b445c36234d71b35e38b5a7ce7ca3c') in 0.013417 seconds 
+  Import took 0.017465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_002b.png
+  artifactKey: Guid(66b557785c4d6a846a0a18fe8d1f13d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_002b.png using Guid(66b557785c4d6a846a0a18fe8d1f13d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033491e489ec638380191cd8a52b87c3') in 0.009459 seconds 
+  Import took 0.014299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005c_top_height-ssbump.png
+  artifactKey: Guid(ddfbd1300561a4249bb2388e84f4dd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005c_top_height-ssbump.png using Guid(ddfbd1300561a4249bb2388e84f4dd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007c0c8adf687de3c9e7544532cf6963') in 0.011727 seconds 
+  Import took 0.016562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/backstage_grate_002a.png
+  artifactKey: Guid(0c765ed07d642974082f3904e3139d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/backstage_grate_002a.png using Guid(0c765ed07d642974082f3904e3139d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26613699a704b20835ce3aa0a1c14327') in 0.013176 seconds 
+  Import took 0.017455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_floor_tile_001c_height-ssbump.png
+  artifactKey: Guid(17e078beb771732479aebff12cf3eff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_floor_tile_001c_height-ssbump.png using Guid(17e078beb771732479aebff12cf3eff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce449b79d7b5a066410197ce6ec1181') in 0.009834 seconds 
+  Import took 0.014590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005d_top.png
+  artifactKey: Guid(99394c4d759b50649af03c9603df0315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005d_top.png using Guid(99394c4d759b50649af03c9603df0315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55a2f6004e67429d7883dd8f8b51412') in 0.010041 seconds 
+  Import took 0.013940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005b_height-ssbump.png
+  artifactKey: Guid(83d848ee3c1137e4ea814b4a6d5462f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005b_height-ssbump.png using Guid(83d848ee3c1137e4ea814b4a6d5462f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868751fe9298f9880d95b0ac58014884') in 0.009991 seconds 
+  Import took 0.014154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_002c_height-ssbump.png
+  artifactKey: Guid(ccd96b64c27c0c64b86ae6819d2d9568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_002c_height-ssbump.png using Guid(ccd96b64c27c0c64b86ae6819d2d9568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba51cfcb19d80f6175af86eb5257f3e1') in 0.009956 seconds 
+  Import took 0.014754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_001b.png
+  artifactKey: Guid(402b4860ddbd7af4cb37cbd8bbc5ad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_001b.png using Guid(402b4860ddbd7af4cb37cbd8bbc5ad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150dcd1162819e0e4d0e10d8b85dbb0a') in 0.009358 seconds 
+  Import took 0.013830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_004c_top.png
+  artifactKey: Guid(7087a017f2232b3459f2020f42ee50e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_004c_top.png using Guid(7087a017f2232b3459f2020f42ee50e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d94150c740089964f696b3f55516bef') in 0.009860 seconds 
+  Import took 0.014134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_envmap_002a_hdr.png
+  artifactKey: Guid(975be9ffe570af0428562348e6ae1569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_envmap_002a_hdr.png using Guid(975be9ffe570af0428562348e6ae1569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16912e37edfcf556adbd467a55885ea6') in 0.009093 seconds 
+  Import took 0.013675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.591562 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005e.png
+  artifactKey: Guid(bf511c226e6748b42b06ecabcbc688f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_005e.png using Guid(bf511c226e6748b42b06ecabcbc688f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5a9e16f909c38d0ea138730f471624') in 0.010137 seconds 
+  Import took 0.014620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_006b_height-ssbump.png
+  artifactKey: Guid(89c1363817e870443ae872592db43898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_006b_height-ssbump.png using Guid(89c1363817e870443ae872592db43898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653aecfe1bb8e939c2ff14ecb3452e88') in 0.009241 seconds 
+  Import took 0.013444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/conveyor_belt.png
+  artifactKey: Guid(c43c45c9a0b090443a6eed2309214e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/conveyor_belt.png using Guid(c43c45c9a0b090443a6eed2309214e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4586ea82084f8b7133c7a40833126f50') in 0.009712 seconds 
+  Import took 0.013642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_006f_height-ssbump.png
+  artifactKey: Guid(3d3878e9f3872a045b96a23c023f12bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_006f_height-ssbump.png using Guid(3d3878e9f3872a045b96a23c023f12bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259e97ec95b5f4ca5c8bcf8a3c48bce2') in 0.009637 seconds 
+  Import took 0.014228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_006b.png
+  artifactKey: Guid(f69dbc239e43eb840ad27f123fd66dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_006b.png using Guid(f69dbc239e43eb840ad27f123fd66dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab60d1710a79dcae3b0cca9671cc4f3') in 0.009982 seconds 
+  Import took 0.014042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_006a.png
+  artifactKey: Guid(659904c4e73f1f74ca7bb54ef451a907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_006a.png using Guid(659904c4e73f1f74ca7bb54ef451a907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c41936c0577ad20cc27fb44db52ff1') in 0.009384 seconds 
+  Import took 0.013442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_006a_height-ssbump.png
+  artifactKey: Guid(412f383f3c994b14ab3e626f2252a2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_006a_height-ssbump.png using Guid(412f383f3c994b14ab3e626f2252a2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0196ec6868a0a8abd613f218ce4f9c4d') in 0.009672 seconds 
+  Import took 0.014194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_006c.png
+  artifactKey: Guid(e3c5c6d4e7ee1d449b90f0c453b593d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_006c.png using Guid(e3c5c6d4e7ee1d449b90f0c453b593d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c95a41dae765df9f7df962a7695029') in 0.009521 seconds 
+  Import took 0.014191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_006e_height-ssbump.png
+  artifactKey: Guid(02ad1f7880c01a1439479b011e9fc722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_006e_height-ssbump.png using Guid(02ad1f7880c01a1439479b011e9fc722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2711295fd8d83a02004af5f35bbb252e') in 0.011525 seconds 
+  Import took 0.016169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_006d_height-ssbump.png
+  artifactKey: Guid(6bbb1ba8e648be743ac3629d3377f1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_006d_height-ssbump.png using Guid(6bbb1ba8e648be743ac3629d3377f1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca3afe988b6e2d9fcc998b2c3f24211') in 0.009069 seconds 
+  Import took 0.013716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_006d.png
+  artifactKey: Guid(dff3c14f441c3b241b1a9555c01092e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_006d.png using Guid(dff3c14f441c3b241b1a9555c01092e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdae5dcc10b68eafb899c3610a3e6573') in 0.010311 seconds 
+  Import took 0.014275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_006f.png
+  artifactKey: Guid(a520457fac8989d4d9a45985fc13a653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_006f.png using Guid(a520457fac8989d4d9a45985fc13a653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e45b529dbdd374042a49e24519b4d5') in 0.009766 seconds 
+  Import took 0.014289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_006c_height-ssbump.png
+  artifactKey: Guid(807cc2f0a135b3849a38bbf2c63d5b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_006c_height-ssbump.png using Guid(807cc2f0a135b3849a38bbf2c63d5b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d2865ab2e044640cc2ce825b7428e3') in 0.009804 seconds 
+  Import took 0.013726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/conveyor_belt_normal.png
+  artifactKey: Guid(49853314afc92334fb9bbf02447bf6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/conveyor_belt_normal.png using Guid(49853314afc92334fb9bbf02447bf6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede02c13bfcf1f4c9cfa8383b572ec35') in 0.010043 seconds 
+  Import took 0.014691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_006e.png
+  artifactKey: Guid(d82a09394d835914f983852bc2ff4467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/black_wall_metal_006e.png using Guid(d82a09394d835914f983852bc2ff4467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb221ab3df867ac14bf4f68c3884046c') in 0.010690 seconds 
+  Import took 0.014651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025518 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/factory_container_01.png
+  artifactKey: Guid(d4641c379e7c5964d9cb95e75952e9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/factory_container_01.png using Guid(d4641c379e7c5964d9cb95e75952e9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff16a0c7302cf974356f92c77051900') in 0.009527 seconds 
+  Import took 0.014204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/factory_metal_floor001b.png
+  artifactKey: Guid(364d77821b7ed65459baa864b733d781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/factory_metal_floor001b.png using Guid(364d77821b7ed65459baa864b733d781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854bdee9fd3b2985905a0b647515412f') in 0.011450 seconds 
+  Import took 0.016242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/factory_metal_floor001c.png
+  artifactKey: Guid(8b3cae958e51abf49b9f1c7000960a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/factory_metal_floor001c.png using Guid(8b3cae958e51abf49b9f1c7000960a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d74143b10fb3b4e7a845b730a2ada2') in 0.009080 seconds 
+  Import took 0.013267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/metal_lift001_gradient.png
+  artifactKey: Guid(1e91582490935ed4b8735a1be49c29a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/metal_lift001_gradient.png using Guid(1e91582490935ed4b8735a1be49c29a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a192d2bfee89104ec4957cd17a8591') in 0.009466 seconds 
+  Import took 0.014143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/factory_container_02_height-ssbump.png
+  artifactKey: Guid(1d4f646b53503ed4a917fe5f0965280f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/factory_container_02_height-ssbump.png using Guid(1d4f646b53503ed4a917fe5f0965280f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ace91180ece0501728b1ac44d1e33e') in 0.009474 seconds 
+  Import took 0.014195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/metal_lift001.png
+  artifactKey: Guid(9e2c7b8cfd00f3e458a280680fee8170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/metal_lift001.png using Guid(9e2c7b8cfd00f3e458a280680fee8170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6acd18b37802ed3403adbb239816baa2') in 0.008913 seconds 
+  Import took 0.013611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/factory_container_01_height4-ssbump.png
+  artifactKey: Guid(1811c335833c04e4099edb61aa471fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/factory_container_01_height4-ssbump.png using Guid(1811c335833c04e4099edb61aa471fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05af77167675eefa6728a2cf0ce44156') in 0.009066 seconds 
+  Import took 0.013776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/metal_lift001_rusty.png
+  artifactKey: Guid(c20f263bf1655f448be39324acec3ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/metal_lift001_rusty.png using Guid(c20f263bf1655f448be39324acec3ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfabed40bf3e49f731325af1d63ba431') in 0.010966 seconds 
+  Import took 0.015570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/metal_modular_floor001_height-ssbump.png
+  artifactKey: Guid(b94e691f4b5c70644a18920f1d1c7ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/metal_modular_floor001_height-ssbump.png using Guid(b94e691f4b5c70644a18920f1d1c7ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b12dd38ccfdefa15342cca05b74ddd') in 0.009957 seconds 
+  Import took 0.014476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/metal_corrugated01b.png
+  artifactKey: Guid(1329a43a831690a41aa2b0a94ce814f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/metal_corrugated01b.png using Guid(1329a43a831690a41aa2b0a94ce814f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d18bf6c34f92bd118719c34b8b374f5') in 0.010147 seconds 
+  Import took 0.014702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/factory_container_02.png
+  artifactKey: Guid(691c8c0905d632044834fec5496b7d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/factory_container_02.png using Guid(691c8c0905d632044834fec5496b7d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd6c1970c5c2b04c6dc2fcab6018432') in 0.010798 seconds 
+  Import took 0.014916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/metal_modular_floor001.png
+  artifactKey: Guid(66bdbea2488565c47a19fff89b2ea3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/metal_modular_floor001.png using Guid(66bdbea2488565c47a19fff89b2ea3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a9e210452110ad45d32772e77c702e') in 0.010058 seconds 
+  Import took 0.014125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/factory_metal_floor001a.png
+  artifactKey: Guid(ac8035b2e89ec2a43bb7e9026d77968b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/factory_metal_floor001a.png using Guid(ac8035b2e89ec2a43bb7e9026d77968b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9650dc8f71200a27022a3fd849a4151e') in 0.010687 seconds 
+  Import took 0.015385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/metal_lift001_rusty_ref.png
+  artifactKey: Guid(a2b8a2bbde68b0f48a6acbb8e69e7999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/metal_lift001_rusty_ref.png using Guid(a2b8a2bbde68b0f48a6acbb8e69e7999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd66cc5d61b138f9f639274dad03c5c') in 0.013626 seconds 
+  Import took 0.017724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/metal/factory_metal_floor001a-height-ssbump.png
+  artifactKey: Guid(ade03037506f6c046b7362e6685b5341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/metal/factory_metal_floor001a-height-ssbump.png using Guid(ade03037506f6c046b7362e6685b5341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8584c767af70c31b1d7de0a30a73b59d') in 0.009151 seconds 
+  Import took 0.013806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 103.569344 seconds.
+  path: Assets/materials/metal.mat
+  artifactKey: Guid(6496867cc4f151448b3b606c21510ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/metal.mat using Guid(6496867cc4f151448b3b606c21510ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f20e62df0365b3c59d7b288cfcde9e8') in 0.157928 seconds 
+  Import took 0.162768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.316286 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/props/128_fuse_set01/128_fuse_set01.png
+  artifactKey: Guid(3439c3144d4e04242bbb3c17fd155437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/props/128_fuse_set01/128_fuse_set01.png using Guid(3439c3144d4e04242bbb3c17fd155437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78762a60e474a6cfd6776c39b6e243c3') in 0.009892 seconds 
+  Import took 0.014847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/props/128_fuse_set05/128_fuse_set05_b.png
+  artifactKey: Guid(f3a9b08d1b35a3b4082c83466e63e072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/props/128_fuse_set05/128_fuse_set05_b.png using Guid(f3a9b08d1b35a3b4082c83466e63e072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dcd3954f8a6e4f860963bd8dfc314b6') in 0.010416 seconds 
+  Import took 0.015069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/props/128_fuse_set05/128_fuse_set05.png
+  artifactKey: Guid(56e8b0ca1f87597429dbc3fe477f95f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/props/128_fuse_set05/128_fuse_set05.png using Guid(56e8b0ca1f87597429dbc3fe477f95f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ecd68428646f5e81aa7a33d096af4a') in 0.010107 seconds 
+  Import took 0.014098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/props/128_fuse_set04/128_fuse_set04.png
+  artifactKey: Guid(e1ae9db8dbd78ee47a977fd64913a145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/props/128_fuse_set04/128_fuse_set04.png using Guid(e1ae9db8dbd78ee47a977fd64913a145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf9998d94051608c4a4bfdccbdd83c7') in 0.009430 seconds 
+  Import took 0.014270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/props/128_fuse_set01/128_fuse_set01_b.png
+  artifactKey: Guid(c67a050f6af5e06439e9b14a8f3390bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/props/128_fuse_set01/128_fuse_set01_b.png using Guid(c67a050f6af5e06439e9b14a8f3390bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84394cf9b1902dba33b7965287a7dfc2') in 0.012217 seconds 
+  Import took 0.016885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/props/128_fuse_set04/128_fuse_set04_b.png
+  artifactKey: Guid(88127d7f5155ff54abdb6940b09dafb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/props/128_fuse_set04/128_fuse_set04_b.png using Guid(88127d7f5155ff54abdb6940b09dafb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623fc42417a3e53562296fceb8fab490') in 0.009498 seconds 
+  Import took 0.014234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/props/128_fuse_set03/128_fuse_set03_b.png
+  artifactKey: Guid(a5ebc8940bb54e7419dd9fac03b82dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/props/128_fuse_set03/128_fuse_set03_b.png using Guid(a5ebc8940bb54e7419dd9fac03b82dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db27350dd77fab4b8c4b9205195d9362') in 0.009683 seconds 
+  Import took 0.013712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/props/128_fuse_set03/128_fuse_set03.png
+  artifactKey: Guid(f63be3d8940799d43b15d9585372f665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/props/128_fuse_set03/128_fuse_set03.png using Guid(f63be3d8940799d43b15d9585372f665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '141353c5097067fb6f048c4757a4f64a') in 0.009289 seconds 
+  Import took 0.014274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.466185 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/props/128_fuse_set06/128_fuse_set06.png
+  artifactKey: Guid(93ce21b46bbf102488e4fa7a177a0645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/props/128_fuse_set06/128_fuse_set06.png using Guid(93ce21b46bbf102488e4fa7a177a0645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d4bc3a074e183f27936f7284052d8b') in 0.009201 seconds 
+  Import took 0.013867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/props/128_fuse_set06/128_fuse_set06_b.png
+  artifactKey: Guid(c0e14bbade8985a4aba82577b2889635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/props/128_fuse_set06/128_fuse_set06_b.png using Guid(c0e14bbade8985a4aba82577b2889635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f671fa29ab0366c1a819485cecbf881') in 0.010554 seconds 
+  Import took 0.015546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032133 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/props/128_fuse_set07/128_fuse_set07.png
+  artifactKey: Guid(0d49076bc13a180468db5f814cde65aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/props/128_fuse_set07/128_fuse_set07.png using Guid(0d49076bc13a180468db5f814cde65aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831b002dc3bedc648eb5c2c7e9ae44c0') in 0.008548 seconds 
+  Import took 0.013254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/props/128_fuse_set07/128_fuse_set07_b.png
+  artifactKey: Guid(4634e74b48de01d4f93706d9193e5ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/props/128_fuse_set07/128_fuse_set07_b.png using Guid(4634e74b48de01d4f93706d9193e5ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c6d89dbd944266d19db7e6293d73aed') in 0.012504 seconds 
+  Import took 0.017317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/props/128_fuse_set09/128_fuse_set09_b.png
+  artifactKey: Guid(8c933d321fd1e874bbbffbdc07f2f05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/props/128_fuse_set09/128_fuse_set09_b.png using Guid(8c933d321fd1e874bbbffbdc07f2f05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da0e7b2d78ac83774cd4616560469fc') in 0.010266 seconds 
+  Import took 0.014462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/props/128_fuse_set09/128_fuse_set09.png
+  artifactKey: Guid(a288eab58ce464c40acc09c3792c397a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/props/128_fuse_set09/128_fuse_set09.png using Guid(a288eab58ce464c40acc09c3792c397a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf3892466ca176017eb89c0796c423d') in 0.009581 seconds 
+  Import took 0.014647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021359 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/props/128_fuse_set10/128_fuse_set10.png
+  artifactKey: Guid(97deff6d040221e4c8f74d3704d45669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/props/128_fuse_set10/128_fuse_set10.png using Guid(97deff6d040221e4c8f74d3704d45669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc103e5676829f188212f5e94337c3b') in 0.008839 seconds 
+  Import took 0.013789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/props/128_fuse_set10/128_fuse_set10_b.png
+  artifactKey: Guid(25d52d685cf5f5c4ea2903189a98ab9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/props/128_fuse_set10/128_fuse_set10_b.png using Guid(25d52d685cf5f5c4ea2903189a98ab9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4e159995764110b25f40ba118870f3') in 0.013201 seconds 
+  Import took 0.017994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.978901 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/props_destruction/black_floor_metal_001a_normal.png
+  artifactKey: Guid(b4b82fd812b21d840ab7bd081cdce21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/props_destruction/black_floor_metal_001a_normal.png using Guid(b4b82fd812b21d840ab7bd081cdce21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '959d0fffcae6eaff9a574ff5cc918b36') in 0.009983 seconds 
+  Import took 0.014895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.605626 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/decals/decalmetalhatch002a.png
+  artifactKey: Guid(8990f3e20e538334cb14e326b9eb357f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/decals/decalmetalhatch002a.png using Guid(8990f3e20e538334cb14e326b9eb357f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e06a68c4b4aa690b81d5b3439a6e832') in 0.010675 seconds 
+  Import took 0.015778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/props/metal_box_fx_fizzler_skin001.png
+  artifactKey: Guid(4e511a46f373f36448339ae97ffffc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/props/metal_box_fx_fizzler_skin001.png using Guid(4e511a46f373f36448339ae97ffffc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab19c242f70c2487616cb6a90e4b269') in 0.010837 seconds 
+  Import took 0.015567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/props_underground/frame_metal.png
+  artifactKey: Guid(2c1b4c29d4bd52a4bbbd40645cf0672b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/props_underground/frame_metal.png using Guid(2c1b4c29d4bd52a4bbbd40645cf0672b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f872c458dfc1528b70febbf2d236c715') in 0.008313 seconds 
+  Import took 0.012581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/detail/detail_black_wall_metal_005.png
+  artifactKey: Guid(1cffdb09b9b96fe458a8fa23e7a21be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/detail/detail_black_wall_metal_005.png using Guid(1cffdb09b9b96fe458a8fa23e7a21be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b56274de5ab657992c13884295196a3') in 0.009867 seconds 
+  Import took 0.014098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/props/metal_box_fx_fizzler.png
+  artifactKey: Guid(a3a670d34c9145d469538abc12e8b1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/props/metal_box_fx_fizzler.png using Guid(a3a670d34c9145d469538abc12e8b1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee94b1f6749b6d55f4573b0017f1fe17') in 0.010511 seconds 
+  Import took 0.015161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/dev/dev_lowermetaldoor02b.png
+  artifactKey: Guid(d1f71c2a26c695d49a7e99cb496e54cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/dev/dev_lowermetaldoor02b.png using Guid(d1f71c2a26c695d49a7e99cb496e54cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36b5d3bccd169cb70f89a9aff488016') in 0.015384 seconds 
+  Import took 0.020301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/props/metal_box_exponent.png
+  artifactKey: Guid(5bc13dfc13ec8374799bbc61f506fad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/props/metal_box_exponent.png using Guid(5bc13dfc13ec8374799bbc61f506fad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c81b26ac5ad022cc0cc57a331ed73e') in 0.009338 seconds 
+  Import took 0.013809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/dev/dev_lowermetaldoor02a.png
+  artifactKey: Guid(c8ba9e70a13cb344c8977cdb74efd938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/dev/dev_lowermetaldoor02a.png using Guid(c8ba9e70a13cb344c8977cdb74efd938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9e4687765ed897ae32967706ea85ce') in 0.009252 seconds 
+  Import took 0.013633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/props/metal_box.png
+  artifactKey: Guid(e6438be931428664587d2ad2eb10810f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/props/metal_box.png using Guid(e6438be931428664587d2ad2eb10810f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c9473a5fb75d84815a64924a1ac4c4') in 0.009906 seconds 
+  Import took 0.013931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/props/metal_box_fx_fizzler_skin002.png
+  artifactKey: Guid(481eb5a57bfaf004882e1bdc74449770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/props/metal_box_fx_fizzler_skin002.png using Guid(481eb5a57bfaf004882e1bdc74449770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960a2a36e8ba56670a417c1c174899a8') in 0.010011 seconds 
+  Import took 0.014504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.029931 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/tile/1970_tile_floor_01.png
+  artifactKey: Guid(721cb3f6097c86243991792f454232c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/tile/1970_tile_floor_01.png using Guid(721cb3f6097c86243991792f454232c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2223e01dcaa015d8cc1db0a60bc0e090') in 0.010460 seconds 
+  Import took 0.015201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/vgui/backgrounds/background01_widescreen.png
+  artifactKey: Guid(f4b2178720d9b7748976bc20877135d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/vgui/backgrounds/background01_widescreen.png using Guid(f4b2178720d9b7748976bc20877135d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3164ffce949fb695ca7b4fefbc2a5b9f') in 0.010211 seconds 
+  Import took 0.014749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/props_underground/aperture_sign_1940.png
+  artifactKey: Guid(8bed93f11d4be814fbf6169a0b7285fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/props_underground/aperture_sign_1940.png using Guid(8bed93f11d4be814fbf6169a0b7285fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677734eb3e9cd3c69fcb1d4b6b286b28') in 0.010818 seconds 
+  Import took 0.015269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/anim_wp/arm_64x64_error.png
+  artifactKey: Guid(9e16e453893b0504d861788d950e3478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/anim_wp/arm_64x64_error.png using Guid(9e16e453893b0504d861788d950e3478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '182aa0052003efa7efddf36a9b53e49b') in 0.010715 seconds 
+  Import took 0.015848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/vgui/backgrounds/background03_widescreen.png
+  artifactKey: Guid(07f8a439ae3367149b17dd58445293cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/vgui/backgrounds/background03_widescreen.png using Guid(07f8a439ae3367149b17dd58445293cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8d703e64da7771d94c181b382cf818') in 0.010453 seconds 
+  Import took 0.015047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/props_motel/aircon_main.png
+  artifactKey: Guid(a758e8f80c5593f48b2b2fda847cde2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/props_motel/aircon_main.png using Guid(a758e8f80c5593f48b2b2fda847cde2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1047226c12f9b28211e2a304ac7283') in 0.010446 seconds 
+  Import took 0.015047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/anim_wp/arm_64x64_rusty_error.png
+  artifactKey: Guid(4838b1acbdbb93b48907429b13a67e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/anim_wp/arm_64x64_rusty_error.png using Guid(4838b1acbdbb93b48907429b13a67e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf46a738333e309c18bff0345350a602') in 0.009906 seconds 
+  Import took 0.013946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/backpack/player/items/all_manncap_large.png
+  artifactKey: Guid(20827d1c7a8ea274dbf751b9a3ce27ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/backpack/player/items/all_manncap_large.png using Guid(20827d1c7a8ea274dbf751b9a3ce27ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e06385a31a44335e44a08c3e17ecbf') in 0.009723 seconds 
+  Import took 0.013922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/tile/1970_tile_floor_01b.png
+  artifactKey: Guid(ff042d161f7bfc94fbb09329a0c020bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/tile/1970_tile_floor_01b.png using Guid(ff042d161f7bfc94fbb09329a0c020bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bee0c20b19bd4be4a612f38d5edd299') in 0.009437 seconds 
+  Import took 0.014764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/overlays/aperture_lrg001.png
+  artifactKey: Guid(22d935a654ab5ee44b244a2417e7286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/overlays/aperture_lrg001.png using Guid(22d935a654ab5ee44b244a2417e7286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8703b35659bde3fe305de2a27637e7c8') in 0.009044 seconds 
+  Import took 0.013490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/anim_wp/arm_64x64_off.png
+  artifactKey: Guid(63a9a7e8488880041be839e26c6b5c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/anim_wp/arm_64x64_off.png using Guid(63a9a7e8488880041be839e26c6b5c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c309f79439779fdc907562f8beaef5af') in 0.009632 seconds 
+  Import took 0.013764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/catwalk_destruction/arm_64x64_exterior_lowres.png
+  artifactKey: Guid(e2e957256eeff0a44a7925bc97298841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/catwalk_destruction/arm_64x64_exterior_lowres.png using Guid(e2e957256eeff0a44a7925bc97298841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd0d99e199353993264612470b9651c') in 0.010084 seconds 
+  Import took 0.014614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/particle/particle_flares/aircraft_white_mask.png
+  artifactKey: Guid(07653c9671b5fe3458ececd66b9cc38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/particle/particle_flares/aircraft_white_mask.png using Guid(07653c9671b5fe3458ececd66b9cc38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6597787da2a156d7ef02c315a03289') in 0.009352 seconds 
+  Import took 0.013798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/anim_wp/arm_64x64_normal.png
+  artifactKey: Guid(47c22f8ddd0a2d24db6f0f3ed50c969c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/anim_wp/arm_64x64_normal.png using Guid(47c22f8ddd0a2d24db6f0f3ed50c969c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38dfab1d28c7e44703a101cc336b7313') in 0.009470 seconds 
+  Import took 0.013629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/props_underground/aperture_sign_1940_destroyed.png
+  artifactKey: Guid(298e4cc8616636c4fb4103fee384cd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/props_underground/aperture_sign_1940_destroyed.png using Guid(298e4cc8616636c4fb4103fee384cd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a1269a15054669eb45a204aa48936b') in 0.009769 seconds 
+  Import took 0.014494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/tile/aperture_concretewall001a.png
+  artifactKey: Guid(b85a149898f65e74fb114bde6f2b212c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/tile/aperture_concretewall001a.png using Guid(b85a149898f65e74fb114bde6f2b212c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86a7e901f8f7bd49a9063a5b53afda6') in 0.009611 seconds 
+  Import took 0.014003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/vgui/arrow_right.png
+  artifactKey: Guid(30731c808a0aabe43a8e7c17c735233c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/vgui/arrow_right.png using Guid(30731c808a0aabe43a8e7c17c735233c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254f8b433b62be4ad69d6cc0bbfdfb36') in 0.011233 seconds 
+  Import took 0.015611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/sprites/ar2_muzzle1.png
+  artifactKey: Guid(9de74224e2193b14e9597fc638614ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/sprites/ar2_muzzle1.png using Guid(9de74224e2193b14e9597fc638614ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4bf02e6708bafb6dd97f41c90398b68') in 0.009154 seconds 
+  Import took 0.013640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/anim_wp/arm_clamp.png
+  artifactKey: Guid(f905d0d781fd5f64bad0cc68c76bcf08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/anim_wp/arm_clamp.png using Guid(f905d0d781fd5f64bad0cc68c76bcf08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40583a241a8ab8b743c25e6e297567ad') in 0.009636 seconds 
+  Import took 0.014222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/player/coop_bots/assembly_machine_glass_orange.png
+  artifactKey: Guid(56be62a64251d7742980918645caa886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/player/coop_bots/assembly_machine_glass_orange.png using Guid(56be62a64251d7742980918645caa886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd1f86860fbc07fe71e6f2f2e1575025') in 0.009681 seconds 
+  Import took 0.013576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/props_underground/aperture_sign_02.png
+  artifactKey: Guid(ff55a7aa36abac54e9e2d0f6899e490a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/props_underground/aperture_sign_02.png using Guid(ff55a7aa36abac54e9e2d0f6899e490a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34725670f52d720a1d868e6ca1d14a54') in 0.009972 seconds 
+  Import took 0.014217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/player/coop_bots/assembly_machine.png
+  artifactKey: Guid(d8e373b83f7a8b942930ec31f87d15a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/player/coop_bots/assembly_machine.png using Guid(d8e373b83f7a8b942930ec31f87d15a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38264f0a1ef4a2059f63e7e3e7873058') in 0.016643 seconds 
+  Import took 0.021446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/player/coop_bots/assembly_machine_orange.png
+  artifactKey: Guid(df27f35228b214048bce972e6c17e5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/player/coop_bots/assembly_machine_orange.png using Guid(df27f35228b214048bce972e6c17e5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'facb864ec059016096219ed80b2157f5') in 0.009959 seconds 
+  Import took 0.014394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/anim_wp/framework/backpanels02.png
+  artifactKey: Guid(ff86144f7fbb7b94d89f1b97db50f50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/anim_wp/framework/backpanels02.png using Guid(ff86144f7fbb7b94d89f1b97db50f50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd409002d01836fefdacdf1a257eb5204') in 0.009722 seconds 
+  Import took 0.014108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/vgui/achievements/a3_doors.png
+  artifactKey: Guid(1162eff25d8fba8418aeba4ff9ecd4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/vgui/achievements/a3_doors.png using Guid(1162eff25d8fba8418aeba4ff9ecd4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '203399fbbc4a572881e27f7ed6a3ea09') in 0.009519 seconds 
+  Import took 0.013729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/backpack/player/items/all_manncap.png
+  artifactKey: Guid(67a22e539942ac74486e775b73e50de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/backpack/player/items/all_manncap.png using Guid(67a22e539942ac74486e775b73e50de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e7a1f15be0daf6b5e3563663d42319') in 0.009907 seconds 
+  Import took 0.014950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/anim_wp/framework/backpanels02_colors.png
+  artifactKey: Guid(71ea0f9a479e38243972cecc39bb61e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/anim_wp/framework/backpanels02_colors.png using Guid(71ea0f9a479e38243972cecc39bb61e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d2e1a5ef9bccc3742810bf6f7ec61d') in 0.010177 seconds 
+  Import took 0.014176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/tile/aperture_ceiling001a.png
+  artifactKey: Guid(c710d6a0cca17bf4ca09dcd9a7e3b8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/tile/aperture_ceiling001a.png using Guid(c710d6a0cca17bf4ca09dcd9a7e3b8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d1a8c7792be57eda25b4cba49b532b') in 0.009474 seconds 
+  Import took 0.014249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/player/coop_bots/assembly_machine_top.png
+  artifactKey: Guid(510019da9efba3e48b690bee5d2f18ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/player/coop_bots/assembly_machine_top.png using Guid(510019da9efba3e48b690bee5d2f18ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92804180053411312cd3bd589830a8f') in 0.012353 seconds 
+  Import took 0.016716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/tile/1970_tile_floor_02.png
+  artifactKey: Guid(6ff2ca9f1903d26498670501db66182a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/tile/1970_tile_floor_02.png using Guid(6ff2ca9f1903d26498670501db66182a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e033aa268be6177be402e314ac72e397') in 0.010314 seconds 
+  Import took 0.015050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/effects/ar2_altfire1.png
+  artifactKey: Guid(588b6ba96f01d4943a38619ec0df1df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/effects/ar2_altfire1.png using Guid(588b6ba96f01d4943a38619ec0df1df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284d039dcf9c70982d1269175ba7121f') in 0.010261 seconds 
+  Import took 0.014504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/player/coop_bots/items/audiosurf_flag.png
+  artifactKey: Guid(f70fff581e95b2948a3d625fa36b56ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/player/coop_bots/items/audiosurf_flag.png using Guid(f70fff581e95b2948a3d625fa36b56ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37791e9c340fb54a376319bfae30c6a1') in 0.011092 seconds 
+  Import took 0.015599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/props_underground/aperture_sign_1970.png
+  artifactKey: Guid(4cd7c42c2c4c5b44f90205597a00b4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/props_underground/aperture_sign_1970.png using Guid(4cd7c42c2c4c5b44f90205597a00b4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac761024e1c2426b8f1a08d9056c8fc3') in 0.010208 seconds 
+  Import took 0.014470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/props_bts/aluminium_extrusion.png
+  artifactKey: Guid(bcf261a057c1a2a4a8feb715ce55f7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/props_bts/aluminium_extrusion.png using Guid(bcf261a057c1a2a4a8feb715ce55f7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ef1da8b87d316e5059619f969a2cf4') in 0.008979 seconds 
+  Import took 0.013515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/anim_wp/arm_64x64_rusty_off.png
+  artifactKey: Guid(b0b212fdbe78c3c418f0a1d212a34e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/anim_wp/arm_64x64_rusty_off.png using Guid(b0b212fdbe78c3c418f0a1d212a34e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6483676183e7463ee8c1e63a0776ba77') in 0.011553 seconds 
+  Import took 0.016063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/vgui/arrow_left.png
+  artifactKey: Guid(3300f5a0d37e56541b120a317db7e058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/vgui/arrow_left.png using Guid(3300f5a0d37e56541b120a317db7e058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32923032efe508766512f5094d378686') in 0.008485 seconds 
+  Import took 0.013138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/anim_wp/arm_defenses_64x64_error.png
+  artifactKey: Guid(07a91803336aa684389d809d12039b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/anim_wp/arm_defenses_64x64_error.png using Guid(07a91803336aa684389d809d12039b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1388b40029c1281c391243747e177d6') in 0.009861 seconds 
+  Import took 0.013983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/sprites/a_icons1.png
+  artifactKey: Guid(71580a1531cd30345a873bd806d523a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/sprites/a_icons1.png using Guid(71580a1531cd30345a873bd806d523a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fbd0a9491f25777631289e3eeeb3f29') in 0.010204 seconds 
+  Import took 0.015130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/anim_wp/arm_interior_192/arm_interior_192_bose.png
+  artifactKey: Guid(e91f6e551770e284a980005292280ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/anim_wp/arm_interior_192/arm_interior_192_bose.png using Guid(e91f6e551770e284a980005292280ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5eed214a2433364c6901e0e2f2034d6') in 0.011263 seconds 
+  Import took 0.016020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/player/coop_bots/assembly_machine_blue.png
+  artifactKey: Guid(2fdb28949af41824daec70cecd4143d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/player/coop_bots/assembly_machine_blue.png using Guid(2fdb28949af41824daec70cecd4143d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd90392591c286099dc4587d4132069a') in 0.010539 seconds 
+  Import took 0.015313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/vgui/backgrounds/background03.png
+  artifactKey: Guid(faa9516873ef0224498d302ffc6c2b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/vgui/backgrounds/background03.png using Guid(faa9516873ef0224498d302ffc6c2b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebecf9e8e0e2fa184954b589b1fe8342') in 0.009715 seconds 
+  Import took 0.014582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/overlays/arrow_stencil001.png
+  artifactKey: Guid(e45fa286ff13b3e4bbfe37a583b765a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/overlays/arrow_stencil001.png using Guid(e45fa286ff13b3e4bbfe37a583b765a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c1f77f07b837210496209ce5946ce3') in 0.009409 seconds 
+  Import took 0.014031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/player/coop_bots/assembly_machine_blue2.png
+  artifactKey: Guid(d2a8b5109dd032b4289f338c7a7be673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/player/coop_bots/assembly_machine_blue2.png using Guid(d2a8b5109dd032b4289f338c7a7be673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dea17a534009a812f8ef304d98680c5') in 0.009170 seconds 
+  Import took 0.013741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/effects/ar2_altfire1b.png
+  artifactKey: Guid(2f3ab24bc9905554f867e2f0e0ef116d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/effects/ar2_altfire1b.png using Guid(2f3ab24bc9905554f867e2f0e0ef116d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb06d5915c1a678285347c075068293') in 0.009046 seconds 
+  Import took 0.013395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/anim_wp/framework/backpanels_color01_height-ssbump.png
+  artifactKey: Guid(3dbd6c9805799574da04d26b80ecd8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/anim_wp/framework/backpanels_color01_height-ssbump.png using Guid(3dbd6c9805799574da04d26b80ecd8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172d9ed2671a6f6597219ff2d1262413') in 0.009681 seconds 
+  Import took 0.014420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/skybox/a4_arm_lights_dot.png
+  artifactKey: Guid(f3f4d51fd86d627428a7241c7c10158f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/skybox/a4_arm_lights_dot.png using Guid(f3f4d51fd86d627428a7241c7c10158f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '224d29d3ba9347e72336ce0b420be7f4') in 0.008360 seconds 
+  Import took 0.013107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/anim_wp/framework/backpanels.png
+  artifactKey: Guid(a2e9dc8e7ff435a42ad9e3eccfb8e707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/anim_wp/framework/backpanels.png using Guid(a2e9dc8e7ff435a42ad9e3eccfb8e707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e4081d880062b9ab64f8e25da0f0c4') in 0.012108 seconds 
+  Import took 0.016286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/anim_wp/arm_64x64_rusty.png
+  artifactKey: Guid(ad4d0eae99a585b439909dc2fda6976d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/anim_wp/arm_64x64_rusty.png using Guid(ad4d0eae99a585b439909dc2fda6976d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcbda8a65bf8c35a1081088c4d1447a5') in 0.011297 seconds 
+  Import took 0.015584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/overlays/aperture_logo_1940.png
+  artifactKey: Guid(e80b7951fafa7ea45af6da54ce9b40ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/overlays/aperture_logo_1940.png using Guid(e80b7951fafa7ea45af6da54ce9b40ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49222ba71576716a5f0c1c6dd5ff1021') in 0.009320 seconds 
+  Import took 0.014067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/vgui/backgrounds/background04.png
+  artifactKey: Guid(119d004591bcec646b840bfe1e7dc67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/vgui/backgrounds/background04.png using Guid(119d004591bcec646b840bfe1e7dc67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a194634efa6aba1d274c5795d379d4') in 0.011664 seconds 
+  Import took 0.015990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/sprites/arrow.png
+  artifactKey: Guid(ee1ce94864fc6f24d865001cfdc7b8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/sprites/arrow.png using Guid(ee1ce94864fc6f24d865001cfdc7b8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2a9c91bde289ce2a8e3f60ce9a5c7e') in 0.008077 seconds 
+  Import took 0.012222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/anim_wp/arm_interior_192/arm_interior_192.png
+  artifactKey: Guid(e3695187db332b04fa85c310bf08bec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/anim_wp/arm_interior_192/arm_interior_192.png using Guid(e3695187db332b04fa85c310bf08bec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff4d074c2015563334154b1eb2405a2') in 0.010224 seconds 
+  Import took 0.014870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/vgui/achievements/addicted_to_spuds.png
+  artifactKey: Guid(0392154271d02a44d801e5302afc60c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/vgui/achievements/addicted_to_spuds.png using Guid(0392154271d02a44d801e5302afc60c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0cb9708fa841f9713b3386da51246b1') in 0.008523 seconds 
+  Import took 0.013189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/props_underground/aperture_sign_01.png
+  artifactKey: Guid(15b48eabfa3ebcf42b4b8471dd9a7427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/props_underground/aperture_sign_01.png using Guid(15b48eabfa3ebcf42b4b8471dd9a7427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369a666edb3986c0f41d9b19f29d0613') in 0.010156 seconds 
+  Import took 0.014646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/props_animsigns/awe_blank.png
+  artifactKey: Guid(8c47ca7f7ad985b49964858f9c37aeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/props_animsigns/awe_blank.png using Guid(8c47ca7f7ad985b49964858f9c37aeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd22d52d65d483efbb54dc88303f6f948') in 0.008872 seconds 
+  Import took 0.013201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/anim_wp/arm_interior_192/arm_motionplatform.png
+  artifactKey: Guid(304e6a64e50e7ae4ead15c5412a15505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/anim_wp/arm_interior_192/arm_motionplatform.png using Guid(304e6a64e50e7ae4ead15c5412a15505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc631503bbd34c5775e371d132ea76e') in 0.011413 seconds 
+  Import took 0.016061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/particle/particle_flares/aircraft_white.png
+  artifactKey: Guid(fae57f297df642d44ba9b1e37bda73c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/particle/particle_flares/aircraft_white.png using Guid(fae57f297df642d44ba9b1e37bda73c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61105b7fbfe928d418d23f718ddeecdb') in 0.009907 seconds 
+  Import took 0.014330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/anim_wp/arm_64x64_exterior.png
+  artifactKey: Guid(ad419cd47208108468e720db42f6aae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/anim_wp/arm_64x64_exterior.png using Guid(ad419cd47208108468e720db42f6aae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db5618d08b8cff45222f0c8390b31e6') in 0.012496 seconds 
+  Import took 0.017108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/vgui/backgrounds/background01.png
+  artifactKey: Guid(bfdf8af2cb6f6a34cb9dbf686db359f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/vgui/backgrounds/background01.png using Guid(bfdf8af2cb6f6a34cb9dbf686db359f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51145e64ba9a4fb4a73be5cc95a2ed67') in 0.009625 seconds 
+  Import took 0.014327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/props_motel/armchair_main.png
+  artifactKey: Guid(c912bae6a894bc743bc4fc087618c089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/props_motel/armchair_main.png using Guid(c912bae6a894bc743bc4fc087618c089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f40d81824a3bee2369b13fc5c9a3b7') in 0.009365 seconds 
+  Import took 0.014025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/player/coop_bots/items/amnesia_flag.png
+  artifactKey: Guid(ba77dbdddc19271488979e984f742c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/player/coop_bots/items/amnesia_flag.png using Guid(ba77dbdddc19271488979e984f742c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e56f7d6eb2a99528aa9b679f0acf1f2') in 0.010055 seconds 
+  Import took 0.015020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/props_animsigns/awe_total_grey.png
+  artifactKey: Guid(00d3b1fc319bbeb43bf3e244c3fd51e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/props_animsigns/awe_total_grey.png using Guid(00d3b1fc319bbeb43bf3e244c3fd51e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b107ad7d1b1f0c2a1ac816db8acc42e') in 0.010864 seconds 
+  Import took 0.014868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/anim_wp/framework/backpanels_color01.png
+  artifactKey: Guid(8d348a42886c7a64281d79087ded4fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/anim_wp/framework/backpanels_color01.png using Guid(8d348a42886c7a64281d79087ded4fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a41ee2fd39f40f185519dc5f4ed4efe') in 0.010826 seconds 
+  Import took 0.016003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/player/coop_bots/assembly_machine_glass.png
+  artifactKey: Guid(9a2c719bf07e984429f851c3df79a5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/player/coop_bots/assembly_machine_glass.png using Guid(9a2c719bf07e984429f851c3df79a5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '842668ac57d9a95ef286abe4c604c788') in 0.010191 seconds 
+  Import took 0.014805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/particle/antlion_goop3/antlion_goop3.png
+  artifactKey: Guid(7d03818aef5cdf94d98600cfb201f3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/particle/antlion_goop3/antlion_goop3.png using Guid(7d03818aef5cdf94d98600cfb201f3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d093e850e72a7528f5cc0c8edad732d') in 0.011636 seconds 
+  Import took 0.016369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/anim_wp/arm_interior_192/arm_glasstop.png
+  artifactKey: Guid(f90a7910e6311b644be425c52f1e12e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/anim_wp/arm_interior_192/arm_glasstop.png using Guid(f90a7910e6311b644be425c52f1e12e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e8e0de75b5f244eceeb67897b9aab0') in 0.010155 seconds 
+  Import took 0.014358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/vgui/backgrounds/background05.png
+  artifactKey: Guid(1d7e130e2c5b5ec439b8d44ccefb6a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/vgui/backgrounds/background05.png using Guid(1d7e130e2c5b5ec439b8d44ccefb6a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0719a58338c8ff09a70689fa9c81b6d8') in 0.008817 seconds 
+  Import took 0.012792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/anim_wp/arm_64x64.png
+  artifactKey: Guid(19e327c60ba2e6743a8058865b55b77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/anim_wp/arm_64x64.png using Guid(19e327c60ba2e6743a8058865b55b77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3acd91b10293567a9e344e0b7bf18568') in 0.010252 seconds 
+  Import took 0.014253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/vgui/backgrounds/background04_widescreen.png
+  artifactKey: Guid(a980852ca1a699f4bbd6b277f92eb656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/vgui/backgrounds/background04_widescreen.png using Guid(a980852ca1a699f4bbd6b277f92eb656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3fa1afd9aad2808b42f8e96181af88f') in 0.010286 seconds 
+  Import took 0.014602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/anim_wp/arm64x64_rail.png
+  artifactKey: Guid(6951f02ede2f5dd4085fcefd7a2519ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/anim_wp/arm64x64_rail.png using Guid(6951f02ede2f5dd4085fcefd7a2519ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518dbb5c68fe091ac51dbaf856d85a20') in 0.010319 seconds 
+  Import took 0.015054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/props_animsigns/awe_total.png
+  artifactKey: Guid(1af3556afc39fb84990b546bacbf4b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/props_animsigns/awe_total.png using Guid(1af3556afc39fb84990b546bacbf4b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18d0d558b57d8675fc1dc74f4fd1d80') in 0.010042 seconds 
+  Import took 0.014747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/vgui/backgrounds/background05_widescreen.png
+  artifactKey: Guid(59ee31dccc6d8a54bb57146d97380e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/vgui/backgrounds/background05_widescreen.png using Guid(59ee31dccc6d8a54bb57146d97380e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da6df56d21c38171178df043349170d') in 0.011389 seconds 
+  Import took 0.016099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/models/player/coop_bots/assembly_machine_orange2.png
+  artifactKey: Guid(e496d3bd2b8b38248bc62a481f710ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/models/player/coop_bots/assembly_machine_orange2.png using Guid(e496d3bd2b8b38248bc62a481f710ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916c904e2d8f321cbfc6cb3f2943acb9') in 0.011019 seconds 
+  Import took 0.014991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/vgui/backgrounds/background02_widescreen.png
+  artifactKey: Guid(9b4bcc667ab52bf43abbf4709a79caa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/vgui/backgrounds/background02_widescreen.png using Guid(9b4bcc667ab52bf43abbf4709a79caa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e208f74167101bebb38f1636a1af4c') in 0.009637 seconds 
+  Import took 0.013937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/textures/Portal 2 Texture Library Converted/vgui/backgrounds/background02.png
+  artifactKey: Guid(6faf91b05efa9b546afe8e9ca3fb607b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/Portal 2 Texture Library Converted/vgui/backgrounds/background02.png using Guid(6faf91b05efa9b546afe8e9ca3fb607b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b46018065aa0c89cae0a3bbf8a2b602') in 0.009213 seconds 
+  Import took 0.014052 seconds .
+
