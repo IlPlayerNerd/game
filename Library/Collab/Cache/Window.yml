@@ -17,10 +17,6 @@ MonoBehaviour:
     - .collabignore
     - Assets/CustomForwardRendererData.asset
     - Assets/CustomForwardRendererData.asset.meta
-    - Assets/MouseLook.cs
-    - Assets/MouseLook.cs.meta
-    - Assets/PlayerMovement.cs
-    - Assets/PlayerMovement.cs.meta
     - Assets/UniversalRenderPipelineAsset.asset
     - Assets/UniversalRenderPipelineAsset.asset.meta
     - Assets/materials.meta
@@ -34,10 +30,14 @@ MonoBehaviour:
     - Assets/scenes/scene1.unity
     - Assets/scenes/scene1.unity.meta
     - Assets/scripts.meta
-    - Assets/scripts/CameraFollow.cs
-    - Assets/scripts/CameraFollow.cs.meta
-    - Assets/scripts/movementIlPlayerNErd.cs
-    - Assets/scripts/movementIlPlayerNErd.cs.meta
+    - Assets/scripts/CameraFollow(unused).cs
+    - Assets/scripts/CameraFollow(unused).cs.meta
+    - Assets/scripts/MouseLook.cs
+    - Assets/scripts/MouseLook.cs.meta
+    - Assets/scripts/MovementIlPlayerNerd.cs
+    - Assets/scripts/MovementIlPlayerNerd.cs.meta
+    - Assets/scripts/PlayerMovement.cs
+    - Assets/scripts/PlayerMovement.cs.meta
     - Assets/textures.meta
     - Assets/textures/Portal 2 Texture Library Converted.meta
     - Assets/textures/Portal 2 Texture Library Converted/anim_wp.meta
